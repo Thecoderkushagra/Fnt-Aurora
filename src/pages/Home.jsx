@@ -33,6 +33,20 @@ const Home = () => {
                     Trending Now
                 </h2>               
             </div>
+
+            {/* explore section */}
+            <div  style={{ marginTop: '15px', padding: '40px 60px' }}>
+                <h2 style={{ color: 'white', fontSize: '24px', fontWeight: 'bold', marginBottom: '20px' }}>
+                    Anime
+                </h2>               
+            </div>
+
+            {/* explore section */}
+            <div  style={{ marginTop: '15px', padding: '40px 60px' }}>
+                <h2 style={{ color: 'white', fontSize: '24px', fontWeight: 'bold', marginBottom: '20px' }}>
+                    Popular on Aurora
+                </h2>               
+            </div>
         </>
     );
 }
