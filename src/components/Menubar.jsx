@@ -25,7 +25,7 @@ const Menubar = () => {
                 </ul>
             </div>
             <div className="d-flex gap-4">
-                <Link className="nav-link fw-medium" to="/"><Search /></Link>
+                <Link className="nav-link fw-medium" to="/search"><Search /></Link>
                 <Link className="nav-link fw-medium"to="/"><User /></Link>
             </div>
         </div>
