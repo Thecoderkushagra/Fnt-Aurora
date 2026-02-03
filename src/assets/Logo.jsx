@@ -52,7 +52,7 @@ const Logo = () => {
           A<span style={styles.aurora}>uror</span>a
         </span>
         <span style={styles.stream}>
-          <span style={styles.streamSpan}>STREA</span>M\
+          <span style={styles.streamSpan}>STREA</span>M|
         </span>
       </div>
     </div>

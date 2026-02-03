@@ -5,6 +5,7 @@ import { useState } from "react";
 
 const Menubar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isLogin, setIsLogin] = useState(false);
 
     return (
         <div className="flex items-center justify-between px-5 py-2 text-white">
@@ -28,13 +29,16 @@ const Menubar = () => {
             </button>
 
             {/* Right Icons */}
-            <div className="hidden md:flex gap-6">
-                <Link className="font-medium hover:text-gray-300 transition" to="/search">
+            <div className="hidden md:flex gap-6 items-center">
+                <Link className="flex items-center justify-center font-medium hover:text-gray-300 transition" to="/search">
                     <Search />
                 </Link>
-                <Link className="font-medium hover:text-gray-300 transition" to="/">
+                {isLogin ? <Link className="flex items-center justify-center font-medium hover:text-gray-300 transition" to="/">
                     <User />
-                </Link>
+                </Link> : <button onClick={() => window.location.href = '/auth'}
+                    className="flex items-center justify-center px-6 py-2 rounded text-[#1c1c1b] bg-[#3295ffff] font-bold hover:opacity-90 transition">
+                    Login
+                </button>}
             </div>
 
             {/* Mobile Menu */}
@@ -46,7 +50,9 @@ const Menubar = () => {
                         <li><Link className="font-medium hover:text-gray-300 transition" to="/">Movies</Link></li>
                         <li><Link className="font-medium hover:text-gray-300 transition" to="/">My List</Link></li>
                         <li><Link className="font-medium hover:text-gray-300 transition" to="/search">Search</Link></li>
-                        <li><Link className="font-medium hover:text-gray-300 transition" to="/">Profile</Link></li>
+                        <li>{isLogin ? <Link className="font-medium hover:text-gray-300 transition" to="/">Profile</Link>
+                            : <Link className="font-medium hover:text-gray-300 transition" to="/login">Login</Link>}
+                        </li>
                     </ul>
                 </div>
             )}
