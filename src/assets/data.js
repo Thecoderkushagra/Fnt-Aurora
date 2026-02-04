@@ -2,8 +2,8 @@ export const dummyData = {
   trending: [
     {
       id: "t1",
-      title: "Cyber Ronin",
-      thumbnail: "https://picsum.photos/400/225?random=1",
+      title: "Apothecary Diaries",
+      thumbnail: "https://m.media-amazon.com/images/S/pv-target-images/75ef254bf4c8e81e0a351b307c670d964d3e23e7c53afc447cc5c62a944456cf.jpg",
       duration: "24m",
       views: "1.2M",
       genre: ["Action", "Sci-Fi"],
@@ -11,8 +11,8 @@ export const dummyData = {
     },
     {
       id: "t2",
-      title: "Shadow Protocol",
-      thumbnail: "https://picsum.photos/400/225?random=2",
+      title: "Naruto",
+      thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1yo8JE6rdvkPlGt-lBM8ntNhL-vH6AIRjQ&s",
       duration: "32m",
       views: "980K",
       genre: ["Thriller"],
@@ -20,8 +20,8 @@ export const dummyData = {
     },
     {
       id: "t3",
-      title: "Neon District",
-      thumbnail: "https://picsum.photos/400/225?random=3",
+      title: "Frieren",
+      thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAapBvFxmybHS8rArdvopwxK64zbiEgMpQwQ&s",
       duration: "27m",
       views: "2.1M",
       genre: ["Drama", "Action"],
