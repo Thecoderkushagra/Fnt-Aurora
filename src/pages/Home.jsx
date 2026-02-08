@@ -34,7 +34,7 @@ const Home = () => {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {dummyData.trending.map((item) => (
-                        <div key={item.id} className="bg-[#212529] rounded overflow-hidden">
+                        <div key={item.id} className="bg-[#212529] rounded overflow-hidden hover:bg-[#2a2d31] transition cursor-pointer">
                             <img src={item.thumbnail} alt={item.title} className="w-full h-60 object-cover" />
                             <div className="p-3">
                                 <h3 className="text-white font-semibold text-sm">{item.title}</h3>
@@ -55,7 +55,7 @@ const Home = () => {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {dummyData.anime.map((item) => (
-                        <div key={item.id} className="bg-[#212529] rounded overflow-hidden">
+                        <div key={item.id} className="bg-[#212529] rounded overflow-hidden hover:bg-[#2a2d31] transition cursor-pointer">
                             <img src={item.thumbnail} alt={item.title} className="w-full h-60 object-cover" />
                             <div className="p-3">
                                 <h3 className="text-white font-semibold text-sm">{item.title}</h3>
@@ -73,7 +73,7 @@ const Home = () => {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {dummyData.popular.map((item) => (
-                        <div key={item.id} className="bg-[#212529] rounded overflow-hidden">
+                        <div key={item.id} className="bg-[#212529] rounded overflow-hidden hover:bg-[#2a2d31] transition cursor-pointer">
                             <img src={item.thumbnail} alt={item.title} className="w-full h-60 object-cover" />
                             <div className="p-3">
                                 <h3 className="text-white font-semibold text-sm">{item.title}</h3>

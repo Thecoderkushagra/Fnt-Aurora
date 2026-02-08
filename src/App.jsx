@@ -10,6 +10,8 @@ import Search from "./pages/Search";
 import Auth from "./pages/Auth";
 import Profile from "./pages/Profile";
 
+import VideoPlayer from "./pages/VideoPlayer";
+
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/search" element={<Search />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/profile" element={<Profile />} />
+
+        <Route path="/video" element={<VideoPlayer />} />
 
       </Routes>
     </BrowserRouter>
