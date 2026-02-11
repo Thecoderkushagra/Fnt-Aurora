@@ -185,7 +185,7 @@ const Billing = () => {
                 <h1 className="text-3xl font-bold mb-8">Billing & Subscription</h1>
 
                 {/* Current Usage Metrics */}
-                <div className="bg-[#212529] rounded-lg p-6 mb-6">
+                {/* <div className="bg-[#212529] rounded-lg p-6 mb-6">
                     <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
                         <TrendingUp size={20} />
                         Current Usage
@@ -218,7 +218,7 @@ const Billing = () => {
                             );
                         })}
                     </div>
-                </div>
+                </div> */}
 
                 {/* Subscription Plans */}
                 <div className="bg-[#212529] rounded-lg p-6 mb-6">
@@ -327,7 +327,7 @@ const Billing = () => {
                 </div>
 
                 {/* Payment Methods */}
-                <div className="bg-[#212529] rounded-lg p-6 mb-6">
+                {/* <div className="bg-[#212529] rounded-lg p-6 mb-6">
                     <div className="flex justify-between items-center mb-6">
                         <h2 className="text-xl font-bold flex items-center gap-2">
                             <CreditCard size={20} />
@@ -418,7 +418,7 @@ const Billing = () => {
                             </div>
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 {/* Billing History */}
                 <div className="bg-[#212529] rounded-lg p-6">

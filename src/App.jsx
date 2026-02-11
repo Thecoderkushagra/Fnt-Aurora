@@ -12,6 +12,8 @@ import Profile from "./pages/Profile";
 
 import VideoPlayer from "./pages/VideoPlayer";
 
+import Publisher from "./pages/PublisherPage"
+import Admin from "./pages/AdminPage";
 
 const App = () => {
   return (
@@ -29,6 +31,8 @@ const App = () => {
 
         <Route path="/video" element={<VideoPlayer />} />
 
+        <Route path="/pub" element={<Publisher />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   )
